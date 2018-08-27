@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1479-spraw
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Dictionary
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/sprawk/apis.md
 specificationVersion: "0.14"
 apis: []
