@@ -1,0 +1,204 @@
+{
+	"name": "Streadata.io API Gallery - Dictionary",
+	"description": "This is a repository of dictionary APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/dictionary.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://dictionary.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pearson plc",
+			"x-api-slug": "pearson-plc",
+			"description": "Offering educational products and services, assessment, and professional development for all stages of learning. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearson-plc.jpg",
+			"humanURL": "https://developer.pearson.com/",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/pearson-plc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cambridge",
+			"x-api-slug": "cambridge",
+			"description": "Cambridge University Press advances learning, knowledge and research worldwide",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/724-cambridge.jpg",
+			"humanURL": "http://cambridge.org",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/cambridge/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Abbreviations.com",
+			"x-api-slug": "abbreviations-com",
+			"description": "The Webs largest and most authoritative acronyms and abbreviations resource.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.abbreviations.com/",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/abbreviations-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Merriam-Webster Dictionary",
+			"x-api-slug": "merriamwebster-dictionary",
+			"description": "The Merriam-Webster Dictionary API gives developers access to a comprehensive resource of dictionary and thesaurus content as well as specialized medical, Spanish, ESL, and student-friendly vocabulary. Make your applications better by integrating our authoritative definitions, etymologies, audio pronunciations, synonyms and antonyms, and more. Our robust API empowers developers to enhance word games and create educational, language learning, and other word-related applications for the digital environment. We look forward to seeing all of the new, innovative products powered by Merriam-Websters trusted references.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dev-center-logo-500x100.png",
+			"humanURL": "http://dictionaryapi.com/",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/merriamwebster-dictionary/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sprawk",
+			"x-api-slug": "sprawk",
+			"description": "Sprawk helps you translate your website your way, and within your budget - reaching more customers and increasing sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1479-sprawk.jpg",
+			"humanURL": "https://www.sprawk.com",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/sprawk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Collins Dictionary",
+			"x-api-slug": "collins-dictionary",
+			"description": "Online Dictionary and Thesaurus from Collins with over 1 million words: Definitions, synonyms, pronunciations, translations, origin and examples.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1716-collins-dictionary.jpg",
+			"humanURL": "http://www.collinsdictionary.com",
+			"baseURL": "https:///",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/collins-dictionary/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wordnik",
+			"x-api-slug": "wordnik",
+			"description": "Wordnik is an online English dictionary and language resource that provides dictionary and thesaurus content, some of it based on print dictionaries such as the Century Dictionary, the American Heritage Dictionary, WordNet, and GCIDE. Wordnik has collected a corpus of billions of words which it uses to display example sentences, allowing it to provide information on a much larger set of words than a typical dictionary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg",
+			"humanURL": "http://wordnik.com",
+			"baseURL": "https://api.wordnik.com//v4",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/wordnik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Books",
+			"x-api-slug": "google-books",
+			"description": "Google Books is our effort to make book content more discoverable on the Web. Using the Google Books API, your application can perform full-text searches and retrieve book information, viewability and eBook availability. You can also manage your personal bookshelves.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 4.28.26 PM.png",
+			"humanURL": "https://developers.google.com/books/",
+			"baseURL": "://www.googleapis.com//books/v1",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/google-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Dictionary",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/lykke/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Dictionary",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Pearson plc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/pearson-plc/apis.yaml"
+		},
+		{
+			"name": "Cambridge",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/cambridge/apis.yaml"
+		},
+		{
+			"name": "Abbreviations.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/abbreviations-com/apis.yaml"
+		},
+		{
+			"name": "Merriam-Webster Dictionary",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/merriamwebster-dictionary/apis.yaml"
+		},
+		{
+			"name": "Sprawk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/sprawk/apis.yaml"
+		},
+		{
+			"name": "Collins Dictionary",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/collins-dictionary/apis.yaml"
+		},
+		{
+			"name": "Wordnik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/wordnik/apis.yaml"
+		},
+		{
+			"name": "Google Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/google-books/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/dictionary/master/_listings/lykke/apis.yaml"
+		}
+	]
+}

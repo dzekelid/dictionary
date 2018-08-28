@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Lykke
-x-complete: 1
+x-complete: 0
 info:
-  title: Wallet_Api
+  title: Lykke Put API Client Dictionary
   version: 1.0.0
+  description: Put api client dictionary.
 basePath: /
 schemes:
 - http
@@ -69,48 +71,17 @@ paths:
       tags:
       - Client
       - Dictionary
-    post:
-      summary: Add API Client Dictionary
-      description: Add api client dictionary.
-      operationId: ApiClientDictionaryPost
-      x-api-path-slug: apiclientdictionary-post
-      parameters:
-      - in: header
-        name: Authorization
-        description: access token
-      - in: body
-        name: keyValue
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Client
-      - Dictionary
-  /api/Dictionary/{key}:
-    get:
-      summary: Get API Dictionary Key
-      description: Get api dictionary key.
-      operationId: ApiDictionaryByKeyGet
-      x-api-path-slug: apidictionarykey-get
-      parameters:
-      - in: path
-        name: key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Dictionary
-      - Key
-  /api/Dictionary:
-    get:
-      summary: Get API Dictionary
-      description: Get api dictionary.
-      operationId: ApiDictionaryGet
-      x-api-path-slug: apidictionary-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Dictionary
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
